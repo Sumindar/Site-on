@@ -44,7 +44,7 @@
           <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
           <div class="col-sm-10">
             <input type="email" class="form-control" id="inputEmail3" placeholder="abc@gmail.com">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.This is a promise.</small>
 
           </div>
         </div>
@@ -56,7 +56,7 @@
         </div>
 
         <div class="form-group">
-  <label for="exampleTextarea">Your message here:</label>
+  <label for="exampleTextarea">Please write your message here:</label>
   <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
 </div>
 
@@ -97,7 +97,7 @@
                  fieldsMissing += "Please enter your password";
                }
               if(isEmail($("#inputEmail3").val()) == false){
-                errorMessage += "<p>Your email address is not valid</p>"
+                errorMessage += "<p>Your email address is not valid.PLease try again.</p>"
               }
                if(fieldsMissing != ""){
                  errorMessage += fieldsMissing;
